@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LDDM Project</string>
+    <string name="add_event">Click to Add</string>
+    <string name="newEvent">New Event</string>
+    <string name="myEvent">My Event</string>
+    <string name="eventName">Event Name</string>
+    <string name="eventBegin">Begin</string>
+    <string name="eventEnd">End</string>
+    <string name="eventOrganizers">Organizers</string>
+    <string name="eventParticipants">Guests</string>
+    <string name="eventAdd">Add</string>
+    <string name="newGuest">New Guest</string>
+    <string name="newOrganizer">New Organizer</string>
+    <string name="dateFormat">dd/mm/aaaa</string>
+    <string name="hourFormat">hh:hh h</string>
+</resources>

@@ -219,20 +219,6 @@ public class eventRegistration extends AppCompatActivity {
         newFragment.show(getSupportFragmentManager( ), "timePicker");
     }
 
-    public void teste(View view){
-        Button button = (Button) findViewById(R.id.dateBegin);
-        EditText button2 = (EditText) findViewById(R.id.eventName);
-        button2.setText(button.getEditableText( ));
-    }
-
-    public void teste2(View view){
-        Fragment newCase = new OrganizerFragment( );
-        FragmentTransaction transaction = getFragmentManager( ).beginTransaction( );
-        transaction.replace(R.id.organizer_fragment,newCase); // give your fragment container id in first parameter
-        transaction.addToBackStack(null);  // if written, this transaction will be added to backstack
-        transaction.commit( );
-    }
-
     public void addEvent (View view) {
         Intent intent = new Intent(Intent.ACTION_INSERT);
         intent.setType("vnd.android.cursor.item/event");
@@ -307,6 +293,12 @@ public class eventRegistration extends AppCompatActivity {
         sendIntent.putExtra(Intent.EXTRA_TEXT, msg);
         sendIntent.setType("text/plain");
         startActivity(sendIntent);
+    }
+
+    public void openShare(View view){
+        Intent intent = new Intent(this, Share.class);
+        intent.putExtra("Uniqid","Share");
+        startActivity(intent);
     }
 
 }

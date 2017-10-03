@@ -13,4 +13,6 @@
     <string name="newOrganizer">New Organizer</string>
     <string name="dateFormat">dd/mm/aaaa</string>
     <string name="hourFormat">hh:hh h</string>
+    <string name="shareQuestion">Do you want to share?</string>
+    <string name="shareText">Share</string>
 </resources>

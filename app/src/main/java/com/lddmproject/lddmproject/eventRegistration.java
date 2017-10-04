@@ -1,10 +1,8 @@
 package com.lddmproject.lddmproject;
 
-import android.app.FragmentTransaction;
 import android.content.Intent;
 import java.util.Calendar;
 import android.provider.CalendarContract;
-import android.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -45,6 +43,7 @@ public class eventRegistration extends AppCompatActivity {
        public static final String NEW_BEGIN_TIME = "com.lddmprojetct.lddmprojetct.listPeople.begintime";
        public static final String NEW_END_DATE = "com.lddmprojetct.lddmprojetct.listPeople.enddate";
        public static final String NEW_END_TIME = "com.lddmprojetct.lddmprojetct.listPeople.endtime";
+       public static final String NEW_EVENT = "com.lddmprojetct.lddmprojetct.listPeople.event";
 
 
     @Override
@@ -297,7 +296,12 @@ public class eventRegistration extends AppCompatActivity {
 
     public void openShare(View view){
         Intent intent = new Intent(this, Share.class);
-        intent.putExtra("Uniqid","Share");
+
+        Bundle extras = new Bundle( );
+        extras.putString("Uniqid","Share");
+        extras.putParcelable(NEW_EVENT,event);
+        intent.putExtras(extras);
+
         startActivity(intent);
     }
 

@@ -24,22 +24,32 @@
         android:id="@+id/facebookButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:onClick="shareFacebook"
         android:scaleType="centerCrop"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.202"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/shareText"
-        app:srcCompat="@drawable/facebookicon"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp" />
+        app:srcCompat="@drawable/facebookicon" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/linkedinicon"
-        tools:layout_editor_absoluteX="261dp"
-        tools:layout_editor_absoluteY="74dp" />
+        android:id="@+id/likedinButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:onClick="shareLikedin"
+        android:scaleType="centerCrop"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shareText"
+        app:srcCompat="@drawable/linkedinicon" />
 
 </android.support.constraint.ConstraintLayout>

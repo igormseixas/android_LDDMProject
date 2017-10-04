@@ -3,6 +3,33 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\Igor Machado Seixas\AndroidStudioProjects\LDDMProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="09e931f77e5707d12d992123d9a1e5d2716231fa">
+        <dex dex="C:\Users\Igor Machado Seixas\AndroidStudioProjects\LDDMProject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5b55fa86de54c56cd9b1ddf5482323e83509f1cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Igor Machado Seixas\.android\build-cache\3b7faf6c991368d4eed32a98c2065483762476a4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="820605b42a2d3d9cb9e6c4cc7453fb4f802aedff">
+        <dex dex="C:\Users\Igor Machado Seixas\AndroidStudioProjects\LDDMProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e041fd3f2c33ead805e8fe8fbdce03d4a036773a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Igor Machado Seixas\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\Igor Machado Seixas\AndroidStudioProjects\LDDMProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_3677450e39e4608334d6a16bfb12c5a8325171b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Igor Machado Seixas\AndroidStudioProjects\LDDMProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -12,12 +39,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Igor Machado Seixas\AndroidStudioProjects\LDDMProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Igor Machado Seixas\.android\build-cache\7644cafce2ef75e2724e53ca3fbe0dea0199cc48\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="1f7cfa96b1965560383401bc00252ca2e6fbeb25">
-        <dex dex="C:\Users\Igor Machado Seixas\AndroidStudioProjects\LDDMProject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5b55fa86de54c56cd9b1ddf5482323e83509f1cd\classes.dex" />
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="C:\Users\Igor Machado Seixas\AndroidStudioProjects\LDDMProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b550ad75af5870f0e3aa3e8114e0ce4ff9b9f36\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Igor Machado Seixas\.android\build-cache\3b786e111a09bbfa603ad5ae1874be7657c0637b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\Igor Machado Seixas\AndroidStudioProjects\LDDMProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_deb0ff3c67608c037e6e49bb4b3f039db78a9c6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Igor Machado Seixas\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Igor Machado Seixas\AndroidStudioProjects\LDDMProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_6fb3a50311f523375eb7c1c2d6dd333e57b5869b\classes.dex" />
     </item>
 
 </items>

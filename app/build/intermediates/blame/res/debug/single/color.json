@@ -24,6 +24,10 @@
         "source": "C:\\Users\\Igor Machado Seixas\\.android\\build-cache\\c16a39e4e4fae15d2cbc31fe0625a1692e17c154\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
+        "merged": "C:\\Users\\Igor Machado Seixas\\AndroidStudioProjects\\LDDMProject\\app\\build\\intermediates\\res\\merged\\debug\\color\\com_facebook_send_button_text_color.xml",
+        "source": "C:\\Users\\Igor Machado Seixas\\.android\\build-cache\\3b7faf6c991368d4eed32a98c2065483762476a4\\output\\res\\color\\com_facebook_send_button_text_color.xml"
+    },
+    {
         "merged": "C:\\Users\\Igor Machado Seixas\\AndroidStudioProjects\\LDDMProject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
         "source": "C:\\Users\\Igor Machado Seixas\\.android\\build-cache\\c16a39e4e4fae15d2cbc31fe0625a1692e17c154\\output\\res\\color\\abc_tint_edittext.xml"
     },
@@ -70,6 +74,10 @@
     {
         "merged": "C:\\Users\\Igor Machado Seixas\\AndroidStudioProjects\\LDDMProject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
         "source": "C:\\Users\\Igor Machado Seixas\\.android\\build-cache\\c16a39e4e4fae15d2cbc31fe0625a1692e17c154\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Igor Machado Seixas\\AndroidStudioProjects\\LDDMProject\\app\\build\\intermediates\\res\\merged\\debug\\color\\com_facebook_button_text_color.xml",
+        "source": "C:\\Users\\Igor Machado Seixas\\.android\\build-cache\\3b7faf6c991368d4eed32a98c2065483762476a4\\output\\res\\color\\com_facebook_button_text_color.xml"
     },
     {
         "merged": "C:\\Users\\Igor Machado Seixas\\AndroidStudioProjects\\LDDMProject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",

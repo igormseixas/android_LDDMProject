@@ -15,4 +15,5 @@
     <string name="hourFormat">hh:hh h</string>
     <string name="shareQuestion">Do you want to share?</string>
     <string name="shareText">Share</string>
+    <string name="facebook_app_id">1975321646045869</string>
 </resources>

@@ -63,6 +63,31 @@ public class Event implements Parcelable {
 
     // Get and Set Methods
 
+    protected Event(Parcel in) {
+        organizer = in.readParcelable(listPeople.class.getClassLoader());
+        participants = in.readParcelable(listPeople.class.getClassLoader());
+        name = in.readString();
+        startTime = in.readLong();
+        endTime = in.readLong();
+        day = in.readInt();
+        month = in.readInt();
+        year = in.readInt();
+        hour = in.readInt();
+        minute = in.readInt();
+    }
+
+    public static final Creator<Event> CREATOR = new Creator<Event>() {
+        @Override
+        public Event createFromParcel(Parcel in) {
+            return new Event(in);
+        }
+
+        @Override
+        public Event[] newArray(int size) {
+            return new Event[size];
+        }
+    };
+
     /**
      * Set Start Time
      */
@@ -128,6 +153,15 @@ public class Event implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel parcel, int i) {
-
+        parcel.writeParcelable(organizer, i);
+        parcel.writeParcelable(participants, i);
+        parcel.writeString(name);
+        parcel.writeLong(startTime);
+        parcel.writeLong(endTime);
+        parcel.writeInt(day);
+        parcel.writeInt(month);
+        parcel.writeInt(year);
+        parcel.writeInt(hour);
+        parcel.writeInt(minute);
     }
 }

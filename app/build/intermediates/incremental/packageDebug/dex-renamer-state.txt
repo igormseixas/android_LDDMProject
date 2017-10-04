@@ -1,4 +1,4 @@
-#Tue Oct 03 00:30:37 BRT 2017
+#Wed Oct 04 01:42:52 BRT 2017
 base.0=C\:\\Users\\Igor Machado Seixas\\AndroidStudioProjects\\LDDMProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5b55fa86de54c56cd9b1ddf5482323e83509f1cd
 renamed.1=classes.dex
 renamed.0=classes2.dex
